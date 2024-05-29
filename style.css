@@ -125,6 +125,7 @@ small {
   background-image: url(./NothernPeople.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .black-layer {
@@ -152,8 +153,9 @@ small {
 .index-img-right img {
   position: absolute;
   width: 550px;
-  bottom: -34px;
+  bottom: 0px;
   right: 15px;
+  margin-right: 5%;
 }
 
 .buttons-container {
