@@ -31,6 +31,10 @@
   color: #008a02;
 }
 
+.logo-text {
+  flex-direction: column;
+}
+
 small {
   font-family: 'Queen of Camelot';
   font-size: 32px;
@@ -43,7 +47,6 @@ small {
 
 .nav-links {
   margin: 0;
-  padding: 10px 0px;
   display: flex;
   align-self: center;
 }
@@ -63,9 +66,10 @@ small {
   font-size: 18px;
 }
 
-.nav-links ul li a:hover {
+.nav-links ul li:hover {
   border-bottom: 2px solid #ffffff;
   padding-bottom: 2px;
+  cursor: pointer;
 }
 
 .donate-now {
@@ -184,7 +188,7 @@ small {
   margin-bottom: 80px;
   position: relative;
   width: 300px;
-  height: auto;
+  height: 320px;
   padding: 0px 23.5px 18px 22.5px;
   border-radius: 24px;
   opacity: 0px;
