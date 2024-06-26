@@ -890,7 +890,6 @@ footer {
     opacity: 1;
     left: 50%;
     transform: translateX(-50%);
-    width: 630px;
     z-index: 2;
   }
 
@@ -915,5 +914,9 @@ footer {
   }
   .f-tip {
     margin-left: 60px !important;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
