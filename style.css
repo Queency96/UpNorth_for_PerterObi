@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* styling Nav-Bar */
 .navbar {
   background-color: transparent;
